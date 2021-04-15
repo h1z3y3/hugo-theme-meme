@@ -68,6 +68,10 @@
     margin: 0 0.618em 0 2em;
     font-size: 1.2em;
     line-height: 1.5;
+    text-overflow: ellipsis;
+    max-width: calc(100% - 120px);
+    white-space: nowrap;
+    overflow: hidden;
 }
 .list-item-time {
     margin: 0 0.618em 0 2em;
